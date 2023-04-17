@@ -272,6 +272,17 @@
                 id="name"/>
             </div>
             <div class="contact__form-field">
+              <label class="contact__form-label" for="name">WhatsApp / Celular</label>
+              <input
+                required
+                placeholder="(XX)-XXXXX-XXXX"
+                type="tel"
+                class="contact__form-input"
+                name="phone"
+                pattern="[0-9]({2})-[0-9]{5}-[0-9]{4}"
+                id="phone"/>
+            </div>
+            <div class="contact__form-field">
               <label class="contact__form-label" for="email">E-mail</label>
               <input 
                 required placeholder="Digite seu email"
